@@ -30,4 +30,12 @@ https://github.ugent.be/madfr/PluginSendExample
 
 Notes by Jack, as he's trying to build this.
 Open this directory in VSCode and open the workspace.
-Install go.
+Install go. Install everything VSCode suggests.
+
+Building for mac doesn't work from within VSCode: it tries to create a file `peer` but there is already a directory of that name.
+
+For now: in a command line run
+
+```
+go build -o peer.mac ./peer
+```
