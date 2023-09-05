@@ -25,3 +25,9 @@ https://github.ugent.be/madfr/l4s-proxy-unity-plugin
 https://github.ugent.be/madfr/PluginReceiveExample
 ### Send Example
 https://github.ugent.be/madfr/PluginSendExample
+
+## Building
+
+Notes by Jack, as he's trying to build this.
+Open this directory in VSCode and open the workspace.
+Install go.
